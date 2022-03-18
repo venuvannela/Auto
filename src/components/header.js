@@ -23,13 +23,13 @@ export default function Header(){
                     <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn"><BiLock/> SECURE SIGN IN</a>
                     <div class="dropdown-content">
-                    <Link to="/components/Psiginin" >Personal</Link>
+                    {/* <Link to="/components/Psiginin" >Personal</Link>
 
-                    <Link to="/components/Csiginin" >Corporate</Link>
+                    <Link to="/components/Csiginin" >Corporate</Link> */}
 
                    
-                    {/* <a href="/components/Psignin">Personal</a>
-                    <a href="/components/Csignin">Corporate</a> */}
+                    <a href="/components/Psignin">Personal</a>
+                    <a href="/components/Csignin">Corporate</a>
                     <a href="#">Government</a>
                     </div>
                     </li>
