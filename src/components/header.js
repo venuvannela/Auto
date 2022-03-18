@@ -5,6 +5,8 @@ import Logo from '../assets/DesignImages/ATFullIcon2.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from "react-router-dom";
 
+
+
 export default function Header(){
     return(
         <div class="container-fluid">
@@ -28,10 +30,20 @@ export default function Header(){
                     <Link to="/components/Csiginin" >Corporate</Link> */}
 
                    
-                    <a href="/components/Psignin">Personal</a>
+                    {/* <a href="/components/Psignin">Personal</a>
                     <a href="/components/Csignin">Corporate</a>
-                    <a href="#">Government</a>
-                    </div>
+                    <a href="#">Government</a> */}
+                    {/* </div> */} 
+                
+                            <a class="dropdown-item" href="/components/Psignin">Personal</a>
+                            <div class="dropdown-divider"></div>
+
+                            <a class="dropdown-item" href="/components/Csignin">Corporate</a>
+                            <div class="dropdown-divider"></div>
+
+                            <a class="dropdown-item" href="#">Government</a>
+                            
+                        </div>
                     </li>
                 </div>
             </div>
