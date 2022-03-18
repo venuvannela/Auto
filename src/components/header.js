@@ -29,11 +29,11 @@ export default function Header(){
 
                     <Link to="/components/Csiginin" >Corporate</Link> */}
 
-                    <Link to="/components/Psignin">Personal</Link>
+                    {/* <Link to="/components/Psignin">Personal</Link> */}
 
-                    {/* <a href="/components/Psignin">Personal</a>
-                    <a href="/components/Csignin">Corporate</a>
-                    <a href="#">Government</a> */}
+                   <li> <a href="/components/Psignin">Personal</a></li>
+                    <li><a href="/components/Csignin">Corporate</a></li>
+                    <a href="#">Government</a>
                     {/* </div> */} 
 {/*                 
                             <a class="dropdown-item" href="/components/Psignin">Personal</a>
