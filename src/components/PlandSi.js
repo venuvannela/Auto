@@ -79,6 +79,9 @@ export default function PlandSi(){
             <div className='colmn'>
                 <div className="block2">
                     <h1 id="hd12">Feature section</h1><br/>
+                    <br/>
+                    <br/>
+
                     <p id="ks11">The <span class="bolded">feature</span> layout is built with <span class="bolded">flex</span>, like the <span class="bolded">hero</span> layout. Don't like our typsetting? You
             can update every detail in the typography section of thr Style panel.</p>
                     <p id="ks11">You can also ass spacing between the heading and paragragh, swap a video in for the image, or add a button. 
