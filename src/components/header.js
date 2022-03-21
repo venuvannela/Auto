@@ -30,7 +30,6 @@ export default function Header(){
 
                     <Link to="/components/Csiginin" >Corporate</Link> */}
 
-                    {/* <Link to="/components/Psignin">Personal</Link> */}
 {/* 
                    <li> <a href="/components/Psignin">Personal</a></li>
                     <li><a href="/components/Csignin">Corporate</a></li>
