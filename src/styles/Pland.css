@@ -56,13 +56,15 @@
 #rt{
     float: left;
     margin-left: 10px;
+    margin-top: 2px;
+    font-size: 12px;
     font-family: Exo;
     color: white;
 }
 
 #rk{
     margin-left: 40%;
-    margin-top: 4px;
+    /* margin-top: 4px; */
     float: left;   
 }
 

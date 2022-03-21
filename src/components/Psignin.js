@@ -16,7 +16,7 @@ export default function Signin(){
                 <div className="container2">
                     <div className="row">
                         <div id="k" className="col-4">
-                            <h3>Sign In</h3>
+                            <h3 >Sign In</h3>
                             <form>
                             <label>EMAIL ADDRESS</label>
                             <input type="email" id="ipb" placeholder="Enter your registered email Id" required/>
@@ -29,9 +29,9 @@ export default function Signin(){
                             </form>
                         </div>
                         <div className="col-7">
-                            <img id="cp" src={car} alt="car" width="500" height="250"/>
+                            <img id="cp" src={car} alt="car" width="500" height="300"/>
                             <div className="cartxt">
-                                <h2>Kenyc. Ukanyds. Qjneduc</h2><br/>
+                                <h2 id="w">Kenyc. Ukanyds. Qjneduc</h2><br/>
                                 <p>amet dictum sit amet justo donec enim diam vulpu ut pharetra sit amet aliquam id dia</p>
                                 <p>amet dictum sit amet justo donec enim diam vulpu ut pharetra sit amet aliquam id dia</p>
                             </div>

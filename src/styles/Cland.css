@@ -22,7 +22,7 @@
     width:40%;
     margin-left: 25%;
     font-family: Montserrat;
-    font-size: 87%;
+    font-size: small;
 
     border-left:4px solid rgb(213, 214, 213);
     margin-top: 60px;
@@ -38,7 +38,7 @@
     width:40%;
     margin-left: 21.5%;
     font-family: Montserrat;
-    font-size: 89%;
+    font-size: small;
     border-left:4px solid rgb(213, 214, 213);
     margin-top: 30px;
     max-height: 100px;  
@@ -125,7 +125,7 @@ div.containernew1{
     font-size: medium;
     font-family:Exo;
     float:right;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-right: -1.5%;
 }
 
@@ -175,7 +175,8 @@ div.containernew1{
     /* height: 50px; */
     font-size: medium;
     font-family:Exo;
-    margin-left: 2px;
+    margin-left: -100px;
+    margin-top: 45%;
     box-shadow: 1px 1px #1e2e27;
 }
 
@@ -189,6 +190,7 @@ div.containernew1{
 }
 #xx{
     color: #be911f;
+    font-size: small;
 }
 
 #kss{
@@ -196,12 +198,23 @@ div.containernew1{
     font-family: 'Exo';
     color: #0c0c0b;
     float: left;
-    font-size: 85%;
+    font-size: 140%;
     font-weight: 300;
     text-align: left;
     max-width: 65%;
     
     
+}
+.ksss{
+    
+        font-family: 'Exo';
+        color: #0c0c0b;
+        float: left;
+        font-size: 140%;
+        font-weight: 300;
+        text-align: left;
+        max-width: 65%;
+        
 }
 
 #hd13{

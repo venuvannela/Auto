@@ -19,11 +19,14 @@
     height: 100px;
     width: 100px;
     margin-top: -50px;
+    margin-left: 0%;
+
 }
 
 #cs{
     height: 100px;
     width: 100px;
+    margin-left: 0%;
     margin-top: -50px;
 }
 
@@ -50,6 +53,7 @@
     margin-top: 20px;
     line-height: 40px;
     font-size-adjust: inherit;
+    font-size: medium;
 }
 
 #para2{
@@ -62,9 +66,10 @@
     box-sizing: border-box;
     border-radius: 2px;
     /* height: 50px; */
-    font-size: larger;
+    font-size: 200%;
     font-family:Exo;
-    margin-top: 4%;
+    margin-bottom: -50%;
+    /* margin-top: 4%; */
     box-shadow: 1px 1px black;
 }
 
@@ -75,5 +80,7 @@
 }
 
 .container5{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    margin-left: 6%;
+    margin-right: 6%;
 }

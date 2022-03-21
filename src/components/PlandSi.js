@@ -24,9 +24,9 @@ export default function PlandSi(){
                     <input type="radio"/><label id="rt">{' '}PREMIUM</label> */}
                     <div className="rep">
                     <input type="radio" id="rk" name="fav_language" value="CSS"/>
-                    <label id="rt" for="css">{' '}BASIC</label><br/>
+                    <label id="rt" for="css">{' '}BASIC</label><br/><br/>
                     <input type="radio" id="rk" name="fav_language" value="CSS"/>
-                    <label id="rt" for="css">PREMIUM</label><br/>
+                    <label id="rt" for="css">PREMIUM</label><br/><br/>
                     <button id="bt2">Generate Report</button>
                     </div>
                     </div>

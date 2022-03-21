@@ -3,7 +3,7 @@ import Header from './header';
 // import {BiLock} from 'react-icons/bi';
 import "../styles/Pland.css";
 import Contact from "./Navigation/Footer";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import glimpse from "../assets/DesignImages/FeatureGlimpse.png"
 export default function Pland(){
     return(
@@ -35,7 +35,7 @@ export default function Pland(){
                 <div className="container-p">
             <div className="row">
                 <div className="Box">
-                    <h2 id="hd">
+                    <h2 id="hd11">
                         Generate AUTOTRUST Report
                     </h2>
                     <input type="number" id="iprp" placeholder="ENTER QUSBEN NUMBER" required/>
@@ -46,9 +46,11 @@ export default function Pland(){
                     <div className="rep">
                     <input type="radio" id="rk" name="fav_language" value="CSS"/>
                     <label id="rt" for="css">{' '}BASIC</label><br/>
+                    <br/>
                     <input type="radio" id="rk" name="fav_language" value="CSS"/>
-                    <label id="rt" for="css">PREMIUM</label><br/>
-                    <button id="bt2">Generate Report</button>
+                    <label id="rt" for="css">PREMIUM</label><br/><br/>
+                    {/* <button id="bt2">Generate Report</button> */}
+                    <Link to="/components/PlandSi"> <button id="bt2" >Generate Report</button></Link>
                     </div>
                     
 

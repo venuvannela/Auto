@@ -65,7 +65,7 @@ class Signup extends React.Component {
                     <div className="col-7">
                             <img id="cp" src={car} alt="car" width="500" height="250"/>
                             <div className="cartxt">
-                            <h2>Kenyc. Ukanyds. Qjneduc</h2><br/>
+                            <h2 id="w">Kenyc. Ukanyds. Qjneduc</h2><br/>
                                 <p>amet dictum sit amet justo donec enim diam vulpu ut pharetra sit amet aliquam id dia</p>
                                 <p>amet dictum sit amet justo donec enim diam vulpu ut pharetra sit amet aliquam id dia</p>
                             </div>
